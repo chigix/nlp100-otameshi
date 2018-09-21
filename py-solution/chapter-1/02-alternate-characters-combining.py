@@ -13,6 +13,8 @@ class TestSuite(unittest.TestCase):
     self.assertEqual(
       [('パ', 'タ'), ('ト', 'ク'), ('カ', 'シ'), ('ー', 'ー')],
       list(zipped))
-    pprint(''.join(map(lambda arr: arr[0] + arr[1], zip(str1,str2))))
+    self.assertEqual(''.join(map(lambda arr: arr[0] + arr[1], zip(str1,str2))),
+      'パタトクカシーー')
+    # pprint(''.join(map(lambda arr: arr[0] + arr[1], zip(str1,str2))))
 
 unittest.main()
