@@ -1,0 +1,36 @@
+{
+  "name": "nlp100-otameshi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: Spec command instead\" && exit 1",
+    "spec": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chigix/nlp100-otameshi.git"
+  },
+  "keywords": [
+    "nlp100"
+  ],
+  "author": "Richard Lea <chigix@zoho.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chigix/nlp100-otameshi/issues"
+  },
+  "homepage": "https://github.com/chigix/nlp100-otameshi#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/lodash": "^4.14.116",
+    "@types/node": "^8.9.5",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
