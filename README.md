@@ -37,3 +37,14 @@ PASS  spec/chapter-1.spec.ts
  √ [02]「パトカー」＋「タクシー」
  √ [03]円周率 (1ms)
 ```
+
+## Installing Mecab
+
+Ubuntu 環境で
+
+```bash
+# apt-get install -y mecab libmecab-dev mecab-ipadic
+# apt-get install -y mecab-ipadic-utf8
+# apt-get install -y libc6-dev build-essential
+# pip3 install mecab-python3
+```
